@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: #000d1a;
+    padding: 5px;
+}
+.line {
+    height: 3px; 
+    margin-bottom: 10px;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255); 
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 3px;
+}
+.introduction {
+    margin-top: 5px;
+    font-family: "Verdana", serif;
+    margin: 10px;
+    font-weight: 150; 
+    text-align: center;
+    font-size: 18px;
+}
+.pycircle-container {
+    background-color: #000000;
+    border-radius: 50%;
+    overflow: hidden; 
+    width: 150px; 
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto 0;
+    box-shadow: 0 0 20px #00606d;
+    transition: box-shadow 0.3s ease;
+}
+.pycircle-image {
+    background-image: url('https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png');
+    width: 90%;
+    height: 90%;
+    background-size: contain;
+    background-position: center;
+    box-sizing: border-box;
+    position: relative; 
+}
+.pycircle-container:hover {
+    box-shadow: 0 0 40px #02af92;
+}
+.custom-frame {
+    margin: 100px auto 0;
+  	display: block;
+    width: 350px;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 8px rgba(255, 0, 0, 0.3);
+    transition: box-shadow 0.3s;
+}
+
+.custom-frame:hover {
+    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.6);
+}
+
+h2{
+  	text-align: center;
+  	font-family: 'arial';
+    margin-bottom: 10px;
+}
+h3{
+    font-family: 'arial';
+    margin-bottom: 10px;
+}
+
+ul {
+  	margin: 10px;
+    list-style-type: disc;
+    padding: 0;
+}
+
+li {
+  	font-family: 'arial';
+    margin-bottom: 10px;
+}
+h4{
+    font-weight: normal;
+    font-family: 'arial';
+    margin-bottom: 10px;
+}
+.lowhr {
+    margin-top: 50px;
+}
+.introduction5 {
+    margin-top: 5px;
+    font-family: "Verdana", serif;
+    margin: 10px;
+    font-weight: 145; 
+    font-size: 18px;
+}
+.custom-python {
+    margin: 50px auto 50px;
+  	display: block;
+    width: 800px;
+    background-color: white;
+    border: 4px solid rgb(6, 0, 63);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 8px rgb(0, 221, 221);
+    transition: box-shadow 0.3s;
+}
+
+.custom-python:hover {
+    box-shadow: 0 8px 16px rgba(0, 177, 177, 0.6);
+}
+.cntend {
+    background-color: #000000;
+    padding: 5px;
+}
+.endcnt {
+    text-align: left;
+    margin-left: 50px;
+    color: rgb(255, 255, 255); 
+}
